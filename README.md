@@ -4,7 +4,7 @@ A website that plots scatter and line graphs.
 ## Team
 | Name | GitHub | Role |
 |------|--------|------|
-| Adarsh  | @Adarsh-Shetkar   | PM   |
+| Adarsh  | @Adarsh-Shetkar   |    |
 
 ## How to run
 (to be filled in)
