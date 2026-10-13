@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Graph Plotter</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <h1>Graph Plotter</h1>
+    <p class="sub">Load a CSV, pick two numeric columns, and plot a scatter or line graph. Runs fully in your browser.</p>
+
+    <div class="row">
+      <input type="file" id="file" accept=".csv">
+      <button id="sample">Use sample data</button>
+    </div>
+
+    <div class="row">
+      <label>X axis <select id="xs"></select></label>
+      <label>Y axis <select id="ys"></select></label>
+      <label>Chart
+        <select id="type">
+          <option value="scatter">Scatter</option>
+          <option value="line">Line</option>
+        </select>
+      </label>
+      <label>Title <input type="text" id="title" placeholder="Optional"></label>
+      <button id="dl">Download PNG</button>
+    </div>
+
+    <div class="chart-container" id="chart-wrap">
+      <canvas id="cv"></canvas>
+      <div id="tooltip"></div>
+    </div>
+    <p id="status">No data loaded.</p>
+    <p id="err"></p>
+  </main>
+
+  <script src="parser.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,166 @@
+/* Modern base layout and typography */
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  background: #f4f6f9;
+  color: #1e293b;
+  margin: 0;
+  line-height: 1.5;
+}
+
+main {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 32px 20px;
+}
+
+h1 {
+  margin: 0 0 6px 0;
+  font-size: 28px;
+  font-weight: 700;
+  color: #0f172a;
+}
+
+.sub {
+  color: #64748b;
+  margin: 0 0 24px 0;
+  font-size: 15px;
+}
+
+/* Card-like control bars */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  align-items: flex-end;
+  background: #ffffff;
+  padding: 16px 20px;
+  border-radius: 10px;
+  border: 1px solid #e2e8f0;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+  margin-bottom: 16px;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+  font-size: 13px;
+  font-weight: 500;
+  color: #475569;
+  gap: 6px;
+}
+
+/* Form input, select, and button controls */
+select, input[type="text"], input[type="file"], button {
+  font: inherit;
+  font-size: 14px;
+  padding: 8px 12px;
+  border-radius: 6px;
+  border: 1px solid #cbd5e1;
+  background: #ffffff;
+  color: #1e293b;
+  transition: border-color 0.15s ease, box-shadow 0.15s ease;
+  box-sizing: border-box;
+}
+
+select:focus, input[type="text"]:focus {
+  outline: none;
+  border-color: #2563eb;
+  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.15);
+}
+
+/* Buttons with distinct primary & secondary styling */
+button {
+  cursor: pointer;
+  font-weight: 500;
+  border: 1px solid #cbd5e1;
+  background: #f8fafc;
+}
+
+button:hover {
+  background: #f1f5f9;
+  border-color: #94a3b8;
+}
+
+button:active {
+  background: #e2e8f0;
+}
+
+button.primary, #sample {
+  background: #2563eb;
+  color: #ffffff;
+  border-color: #2563eb;
+}
+
+button.primary:hover, #sample:hover {
+  background: #1d4ed8;
+  border-color: #1d4ed8;
+}
+
+button.primary:active, #sample:active {
+  background: #1e40af;
+}
+
+#dl {
+  background: #0f172a;
+  color: #ffffff;
+  border-color: #0f172a;
+  margin-left: auto;
+}
+
+#dl:hover {
+  background: #1e293b;
+}
+
+/* Canvas chart container and drag-drop active styling */
+.chart-container {
+  position: relative;
+  width: 100%;
+}
+
+canvas {
+  width: 100%;
+  height: 480px;
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 10px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.05);
+  display: block;
+  box-sizing: border-box;
+}
+
+.chart-container.drag-over canvas {
+  border: 2px dashed #2563eb;
+  background: #eff6ff;
+}
+
+/* Chart hover tooltip */
+#tooltip {
+  position: absolute;
+  pointer-events: none;
+  background: rgba(15, 23, 42, 0.88);
+  color: #ffffff;
+  padding: 6px 10px;
+  font-size: 12px;
+  border-radius: 6px;
+  white-space: nowrap;
+  display: none;
+  z-index: 10;
+  transform: translate(-50%, -120%);
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+  font-family: monospace;
+}
+
+/* Status and error feedback */
+#status {
+  color: #64748b;
+  font-size: 14px;
+  margin: 12px 0 4px 0;
+}
+
+#err {
+  color: #dc2626;
+  font-weight: 500;
+  font-size: 14px;
+  margin: 4px 0 0 0;
+}
+

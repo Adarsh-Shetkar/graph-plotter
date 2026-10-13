@@ -16,4 +16,13 @@ Roles will be assigned on a rotational basis so everyone can explore and try dif
 
 
 ## How to run
-(to be filled in)
+Open `src/index.html` directly in any modern browser, or serve it locally:
+
+```bash
+# Using Python
+python3 -m http.server 8000 --directory src
+
+# Or using npx
+npx serve src
+```
+Then visit `http://localhost:8000` (or the port displayed).
