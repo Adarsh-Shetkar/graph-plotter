@@ -6,13 +6,14 @@ Roles will be assigned on a rotational basis so everyone can explore and try dif
 | Name | GitHub | Role |
 |------|--------|------|
 | Adarsh  | @Adarsh-Shetkar   |  Product Owner  |
-| xyz  | xyx  |  Scrum Master & Documentation|
-| xyz  | xyx  |  Dev team  |
-| xyz  | xyx  |  Dev team  |
-| xyz  | xyx  |  Dev team  |
-| xyz  | xyx  |  Dev team  |
-| xyz  | xyx  |  UI/UX |
-| xyz  | xyx  |  Testing  |
+| James Keys  | @jkqq-0  |  Scrum Master & Documentation|
+| Ali  | @AliMohammadiasl  |  Dev team  |
+| Kenneth Song  | @KennytheMasterCoder  |  Dev team  |
+| Eddie  | @EdwardLoeber  |  Dev team  |
+| Congke Chen  | @CongkeChen  |  Dev team  |
+| Keanu Jahncke  | @keanujahncke  |  UI/UX & Data Modelling |
+| Russel Sofia  | @rusunited2  |  Testing  |
+| Welo  | @weloniheu |  Testing  |
 
 
 ## How to run
