@@ -1,0 +1,24 @@
+# macOS
+.DS_Store
+**/.DS_Store
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Editors
+.vscode/
+.idea/
+
+# Dependencies and builds (in case you add them later)
+node_modules/
+dist/
+build/
+
+# Logs and local config
+*.log
+.env
+.env.local
+
+# Vercel
+.vercel/
